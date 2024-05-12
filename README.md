@@ -57,3 +57,34 @@ composer install && cp .env.example .env
 ```bash
 php artisan key:generate && php artisan migrate && php artisan db:seed && php artisan vendor:publish && php artisan storage:link && npm install
 ```
+
+
+**Run the proyect in 2 comand line**                                                                                                                                                              
+
+
+
+**first comand**
+
+
+You can use the following one-liner to install Composer dependencies and copy the `.env.example` file to `.env`:
+
+```bash
+composer install && cp .env.example .env
+```
+Puedes usar el operador `&&` para ejecutar múltiples comandos en una sola línea:
+
+```
+php artisan key:generate && php artisan migrate && php artisan db:seed && php artisan vendor:publish && 
+```
+```
+>  you can in termianl put 0and enter
+-> Press 0 and then press enter to publish all assets and configurations.
+```
+
+```bash
+vphp artisan storage:link
+```
+finnally
+
+php artisan storage:link && npm install
+Este comando ejecutará cada comando uno tras otro y solo continuará al siguiente si el anterior se ejecuta con éxito.
