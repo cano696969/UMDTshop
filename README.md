@@ -36,3 +36,24 @@
     <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/cn.svg" alt="Chinese" width="24" height="24">
 </p>
 
+
+git cloone https://github.com/cano696969/UMDTshop.git
+
+
+cd UMDTshop
+
+
+
+
+**first comand**
+
+
+You can use the following one-liner to install Composer dependencies and copy the `.env.example` file to `.env`:
+
+```bash
+composer install && cp .env.example .env
+```
+
+```bash
+php artisan key:generate && php artisan migrate && php artisan db:seed && php artisan vendor:publish && php artisan storage:link && npm install
+```
